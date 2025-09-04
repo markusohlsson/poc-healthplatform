@@ -1,0 +1,39 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+dist/
+.next/
+out/
+coverage/
+build/
+
+# Environment
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# NestJS specific
+backend/dist/
+backend/.env
+
+# Next.js specific
+frontend/.next/
+frontend/out/
+frontend/.env
